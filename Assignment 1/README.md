@@ -1,4 +1,4 @@
 # my page
 
 
-This is my root repository for my Intro to Web Design course. You can find my assignment folders inside. Thanks for visiting.
+Hello! This is my personal space where you'll get to know more about who I am, my hobbies, and what I enjoy doing in my free time.
