@@ -10,13 +10,13 @@ h1 {
 }
 
 h2, h3, p {
-    color: #a07855;
+    color: #5f3d20;
 }
 
 img {
     max-width: 100%; 
     height: auto;
-    border-radius: 12px;
+    border-radius: 5px;
     border: 3px solid #a07855; 
     margin: 15px 0; 
 }
