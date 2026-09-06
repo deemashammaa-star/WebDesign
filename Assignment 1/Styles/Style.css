@@ -1,22 +1,64 @@
 body {
-    background-color: lightblue; 
-    text-align: center; 
-    font-family: Arial, sans-serif; 
-    padding: 20px; 
+    background-color: #F9F6F0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-photo {
+    width: 250px;
+    border: 4px solid #3E2723;
+    border-radius: 50%; 
+    margin-top: 15px;
 }
 
 h1 {
-    color: black; 
+    color: #3E2723;
+    margin-top: 30px;
 }
 
-h2, h3, p {
-    color: #5f3d20;
+h2 {
+    color: #8D6E63;
+    text-decoration: underline; 
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-img {
-    max-width: 100%; 
+h3, p {
+    color: #4E4E4E;
+    line-height: 1.5;
+}
+
+.section {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hobbies-container {
+    display: flex; 
+    justify-content: center;
+    gap: 25px; 
+}
+
+.hobby {
+    width: 30%; 
+}
+
+.hobby img {
+    width: 100%; 
     height: auto;
+    border: 3px solid #5f3d20;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-link {
+    background-color: #5f3d20;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
     border-radius: 5px;
-    border: 3px solid #a07855; 
-    margin: 15px 0; 
 }
