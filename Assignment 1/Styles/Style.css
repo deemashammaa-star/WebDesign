@@ -4,23 +4,59 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
+.navbar {
+    background-color: #ffcda1;
+    padding: 0 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: #342207; 
+    font-size: 45px; 
+}
+
+.navbar ul a:hover {
+    color: #000000; 
+}
 .profile-photo {
     width: 250px;
     border: 4px solid #3E2723;
     border-radius: 50%; 
     margin-top: 15px;
 }
+.logo  img{
+        width: 220px;
+        height: 100px;
 
+}
 h1 {
-    color: #3E2723;
+    color: #2a1916;
     margin-top: 30px;
 }
 
 h2 {
-    color: #8D6E63;
-    text-decoration: underline; 
+    color: #261914;
+    font-weight: bold; 
     margin-top: 40px;
     margin-bottom: 20px;
 }
@@ -61,4 +97,12 @@ h3, p {
     text-decoration: none;
     font-size: 18px;
     border-radius: 5px;
+}
+.footer{
+    background-color: #ffcda1;
+    padding: 0;
+    margin-top: auto; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
 }
