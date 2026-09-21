@@ -141,6 +141,7 @@ hr{
 
 /**************************/
 .poem-card {
+    border-radius: 10px;
     display: inline-block;
     max-width: 25%;
     height: auto;
@@ -170,7 +171,9 @@ hr{
     display: block;
     max-width: 70%;
     margin: 0 auto;
-    padding-bottom: 7%;
+    border: 3px solid #5f3d20;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .poem-card p {
