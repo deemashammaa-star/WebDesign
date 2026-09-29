@@ -19,7 +19,6 @@ body {
 
 
 }
-
 .navbar {
     background-color: #ffcda1;
     padding: 0 40px 0 40px;
@@ -30,9 +29,12 @@ body {
 }
 
 .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px; 
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 0 20px;
 }
 
 .nav-links li {
@@ -136,7 +138,7 @@ hr{
     margin-top: 30px;
     font-weight: bold;
     font-size: 30px;
-    background-color: #b07865;
+    background-color: #714d41;
     color: #f9fae9;
     padding-top: 3%;
 }
@@ -145,7 +147,7 @@ hr{
     display: block;
     text-align: center;
     color: #e0e4a0;
-    background-color: #b07865;
+    background-color: #714d41;
     padding-top: 1%;
     padding-bottom: 3%;
 }
@@ -161,7 +163,11 @@ hr{
     padding: 10px;
     padding-bottom: 35px;
     margin: 1%;
-    font-family: Tahoma, sans-serif;
+    
+    font-family: "Literata", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 .poem-card-group {
@@ -294,4 +300,35 @@ th {
 #gallery img {
     width: 30%;
     height: auto;
+}
+.icon {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    text-align: center;
+}
+
+.icon img.icons {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    display: block;
+}
+.icon img.icons:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.icon label {
+    margin-top: 5px; 
+    font-size: 14px;
+    font-weight: bold;
+    color: #5a3e36;
+    cursor: pointer;
+}
+.drawing-image{
+    width: 250px;
+    height: auto;
+    border: 5px solid #5f3d20;
+    border-radius: 10px;
 }
