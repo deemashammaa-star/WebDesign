@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Document Setup and Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="Styles/Style.css">
+    
+    <!-- Page Title -->
+    <title>My Website</title>
+
+    <!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar Section -->
+    <nav class="navbar">
+    <a href="index.html" class="logo"><img src="images/logo.png" alt="My Logo"></a>
+    <ul class="nav-links">
+        
+        <div class="icon">
+            <a href="index.html"><img src="images/home.png" alt="Home" class="icons"></a>
+            <label>Home</label>
+        </div>
+
+        <div class="icon">
+            <a href="about.html"><img src="images/flower.png" alt="About" class="icons"></a>
+            <label>About</label>
+        </div>
+
+        <div class="icon">
+            <a href="Projects.html"><img src="images/projects.png" alt="Projects" class="icons"></a>
+            <label>Projects</label>
+        </div>
+
+        <div class="icon">
+            <a href="#"><img src="images/search.png" alt="search" class="icons"></a>
+            <label>search</label>
+        </div>
+
+        <div class="icon">
+            <a href="Drawings.html"><img src="images/brush icon.png" alt="Drawings" class="icons"></a>
+            <label>Drawings</label>
+        </div>
+    </ul>
+    </nav>
+
+    <!-- Hero / Header Section -->
+    <div class="hero">
+        <header>
+            <!-- Main Heading -->
+            <h1>Welcome to my website</h1>
+            
+            <!-- Profile Photo -->
+            <img src="images/profile photo.jpg" alt="My Profile Photo" class="profile-photo">
+        </header>
+        
+        <!-- Inspirational Quote -->
+        <blockquote>
+            I failed over and over and over again in my life. And that is why I succeed.
+        </blockquote>
+        <cite>Michael Jordan</cite>
+    </div>
+
+    <hr>
+
+    <!-- Poem Cards Section -->
+    <div class="poem-card-group">
+        
+        <!-- First Poem Card: Greenness -->
+        <div class="poem-card">
+            <h3>Greenness</h3>
+            <cite>Angelina Weld Grimké</cite>
+            <img src="images/card 1.jfif" alt="Wildflowers.">
+            <p>
+                Tell me is there anything lovelier,<br>
+                Anything more quieting<br>
+                Than the green of little blades of grass<br>
+                And the green of little leaves?
+            </p>
+        </div>
+
+        <!-- Second Poem Card: Painted Daisies -->
+        <div class="poem-card">
+            <h3>Painted Daisies</h3>
+            <cite>Acrylic Art Style</cite>
+            <img src="images/card 2.jfif" alt="Painted Daisies, Acrylic Painting.">
+            <p>
+                Brighter hues draw the eye,<br>
+                While deep tones create depth,<br>
+                Every brush stroke tells a story,<br>
+                Captured on the canvas.
+            </p>
+        </div>
+
+        <!-- Third Poem Card: Evening Forest -->
+        <div class="poem-card">
+            <h3>Evening Forest</h3>
+            <cite>Nature & Inspiration</cite>
+            <img src="images/card 3.jpg" alt="Forest in the evening.">
+            <p>
+                The poetry of earth is never dead,<br>
+                When shadows fall on quiet trees,<br>
+                And colors blend into the dusk,<br>
+                In perfect harmony.
+            </p>
+        </div>
+    </div>
+
+    <hr>
+    
+    <!-- Hobbies Section -->
+    <div class="section">
+        <h2>Hobbies</h2>
+        <div class="hobbies-container">
+            
+            <!-- Hobby 1: Drawing -->
+            <div class="hobby">
+                <h3>Drawing</h3>
+                <img src="images/drawing.jpg" alt="A showcase of drawing">
+                <!-- Note: Fixed the stray </strong> tag here -->
+                <p>I love <strong>sketching</strong> and <strong>illustrating</strong> in my free time. It allows me to express my creativity on paper and bring my imagination to life.</p>
+            </div>
+            
+            <!-- Hobby 2: Animation -->
+            <div class="hobby">
+                <h3>Animation</h3>
+                <img src="images/animation.jpg" alt="A showcase of animation work">
+                <p>Breathing life into characters through <strong>motion</strong> is incredibly rewarding. I enjoy experimenting with different animation software and creating short, dynamic sequences.</p>
+            </div>
+
+            <!-- Hobby 3: Photography -->
+            <div class="hobby">
+                <h3>Photography</h3>
+                <img src="images/photography.jpg" alt="A showcase of photography">
+                <p>Capturing the world through a lens helps me appreciate the <strong>beauty</strong> in everyday moments. I usually focus on <em>landscapes</em>, <em>portraits</em>, and <em>street photography</em>.</p>
+            </div>
+
+        </div>
+    </div>
+
+<!-- ------------------------------------------------ -->
+<!-- ------------------- FORM --------------------- -->
+<!-- ------------------------------------------------ -->
+<form class="form-v2">
+    <fieldset>
+        <legend>Get in Touch with Me</legend>
+        
+        <label>Your Name:</label>
+        <input type="text" name="name" placeholder="e.g. John Smith">
+        
+        <label>Email Address:</label>
+        <input type="email" name="email" placeholder="e.g. johnsmith@gmail.com">
+        
+        <label>Which section of my site did you enjoy most?</label>
+        <select name="favorite-section">
+            <option value="projects">Programming Projects</option>
+            <option value="art">Art & Creative Designs</option>
+            <option value="hobbies">Hobbies & Personal Interests</option>
+            <option value="general">General Browsing</option>
+        </select>
+        
+        <label>What are you looking for today?</label>
+        <label><input type="radio" name="purpose" value="hiring">Software Development Services</label>
+        <label><input type="radio" name="purpose" value="collaboration">UI/UX Design Inquiry</label>
+        <label><input type="radio" name="purpose" value="feedback">General Inquiries</label>
+        
+        <label>
+            <input type="checkbox" name="updates" value="yes">
+            Keep me updated on your new projects and articles
+        </label>
+        
+    </fieldset>
+</form>
+
+<!-- Table Section for Favorite Books -->
+<h2>My Favorite Books</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Pride and Prejudice</td>
+            <td>Jane Austen</td>
+            <td>Classic Romance</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div id="gallery">
+    <img src="images/image1.jpg" alt="Image 1">
+    <img src="images/image2.jpg" alt="Image 2">
+    <img src="images/image3.jpg" alt="Image 3">
+    <img src="images/image4.jpg" alt="Image 4">
+    <img src="images/image5.jpg" alt="Image 5">
+    <img src="images/image6.jpg" alt="Image 6">
+    <img src="images/image7.jpg" alt="Image 7">
+    <img src="images/image8.jpg" alt="Image 8">
+    <img src="images/image9.jpg" alt="Image 9">
+</div>
+
+
+    <!-- Footer and Contact Section -->
+    <footer class="footer">
+        <div class="section">
+            <h2>Contact</h2>
+            <p>I am always open to discussing new projects, creative ideas, or opportunities to collaborate.</p>
+            <br>
+            
+            <!-- Email Contact Link -->
+            
+            <div class="icon">
+            <a href="mailto:example@email.com"><img src="images/mail.png" alt="mail" class="icons"></a>
+            <label>Send me an Email</label>
+            </div>
+
+
+        </div>
+    </footer>
+
+</body>
+</html>

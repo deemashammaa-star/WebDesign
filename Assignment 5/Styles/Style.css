@@ -159,7 +159,7 @@ hr{
     display: inline-block;
     max-width: 25%;
     height: auto;
-    background-color: #d4d1c9;
+    background-color: #FFCDA1;
     padding: 10px;
     padding-bottom: 35px;
     margin: 1%;
@@ -204,7 +204,7 @@ hr{
 
 
 .form-v2 {
-    background-color: #f9f7f1;
+    background-color: #FFC871;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #ccc;
@@ -331,4 +331,10 @@ th {
     height: auto;
     border: 5px solid #5f3d20;
     border-radius: 10px;
+}
+.palette{
+    width: 100px;
+    height: auto;
+    position: center;
+
 }
