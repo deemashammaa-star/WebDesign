@@ -159,7 +159,7 @@ hr{
     display: inline-block;
     max-width: 25%;
     height: auto;
-    background-color: #FFCDA1;
+    background-color: #d4d1c9;
     padding: 10px;
     padding-bottom: 35px;
     margin: 1%;
@@ -204,7 +204,7 @@ hr{
 
 
 .form-v2 {
-    background-color: #FFC871;
+    background-color: #f9f7f1;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #ccc;
@@ -331,43 +331,4 @@ th {
     height: auto;
     border: 5px solid #5f3d20;
     border-radius: 10px;
-}
-.palette{
-    width: 100px;
-    height: auto;
-    position: center;
-
-}
-
- .drop-cap-image {
-    color:rgba(78, 95, 79, 0.89);
-    background-color: #f6eee4;
-    padding: 30px 40px;
-    padding-top: 45px;
-    border-radius: 8px;
-    max-width: 40%;
-    margin: 0 auto;
-    line-height: 1.4;
-    position: relative;
-    z-index: 0;
-}
-
- .drop-cap-image img {
-    width: 120px;
-    height: auto;
-    float: left;
-    object-fit: contain;
-    padding: 0px;
-    position: relative;
-    z-index: -1;
-    top: -35px;
-    left: -10px;
-    margin-bottom: -30px;
-    margin-right: -35px;
- }
-
- @media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
 }
