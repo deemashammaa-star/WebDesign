@@ -76,3 +76,14 @@ Creating the centralized `ComponentLibrary` folder and organizing the media asse
 
 ### 2. How did working with reusable components affect the way you approached your design this week?
 Working with reusable components made me think more holistically about the website's structure and brand identity. Instead of styling each page in isolation, I focused on creating unified patterns—like consistent color contrast, clean typography, and matching graphical motifs—which made the overall user experience much smoother and more professional.
+
+# Assignment 6 Question
+
+#### Future Development Plans
+
+**Question:**
+- Do you plan to continue developing this site for your final project later in the semester?
+- If so, what three things would you most want to remember when revisiting it several weeks from now? These might be notes that help you ease back into it, ideas for improvements, things you couldn't get to, inspiration from peers, things that became clear as you finalized this version, etc.
+
+**Answer:**
+Yes, I plan to continue developing this site later in the semester. When revisiting it several weeks from now, I want to remember three main things: to complete and fully functionalize the search section, to upgrade the projects section by implementing more professional and advanced cards, and to keep refining the CSS Grid and responsive layouts based on peer review inspiration.
